@@ -1,0 +1,281 @@
+# ============================================
+# GITIGNORE - Gestión de Correos Outlook
+# ============================================
+
+# ====================
+# Python
+# ====================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+spec/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ====================
+# Virtual Environments
+# ====================
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# ====================
+# Testing
+# ====================
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ====================
+# IDE & Editors
+# ====================
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+_pycache_/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ====================
+# Operating System
+# ====================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+.Trash-*
+.nfs*
+
+# ====================
+# Project Specific
+# ====================
+
+# Logs generados por la aplicación
+legacy/logs/
+*.log
+logs/
+
+# Archivos temporales de Excel
+~$*.xlsx
+~$*.xls
+
+# Archivos de configuración locales (si contienen información sensible)
+# config.json  # Descomenta si contiene datos sensibles
+
+# Carpetas de salida/pruebas
+output/
+temp/
+tmp/
+test_output/
+downloads/
+
+# Archivos de respaldo
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archivos de bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos comprimidos de distribución
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ====================
+# Documentation
+# ====================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# mkdocs documentation
+/site
+
+# ====================
+# Secrets & Credentials
+# ====================
+
+# Archivos con credenciales o tokens
+*.env
+.env.*
+secrets.json
+credentials.json
+*.key
+*.pem
+*.crt
+
+# ====================
+# Jupyter Notebook
+# ====================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
+# ====================
+# MyPy
+# ====================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ====================
+# Pyre
+# ====================
+.pyre/
+
+# ====================
+# pytype
+# ====================
+.pytype/
+
+# ====================
+# Cython
+# ====================
+cython_debug/
+
+# ====================
+# Archivos NO ignorados (excepciones)
+# ====================
+
+# Mantener archivos importantes del proyecto
+!config/config.json
+!config/ico.ico
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore
+!1.generar_onedir.py
+
+# Mantener estructura de carpetas con archivos .keep
+!legacy/logs/.keep
+!tests/
+!ui/
+!config/
+
+# ====================
+# Notas
+# ====================
+
+# Este archivo .gitignore está configurado específicamente para el proyecto
+# de Gestión de Correos Outlook con PyQt5 y pywin32
+# 
+# Última actualización: Noviembre 2025
