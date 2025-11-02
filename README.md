@@ -253,7 +253,7 @@ Las contribuciones son bienvenidas. Por favor:
 
 ## 📄 Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE]([LICENSE](https://github.com/Merlin2098/Matrix_Mail_Attach_Extactor/blob/main/LICENSE)) para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
 
 ---
